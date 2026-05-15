@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YIC Library | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container nav-container">
+                <div class="logo"><i class="fas fa-book-open"></i><span>YIC Library</span></div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="books.php">Books</a></li>
+                    <li><a href="login.php">Login</a></li>
+                    <li><a href="register.php">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Welcome to <span class="highlight">YIC Library</span></h1>
+                    <p>Discover thousands of books, journals, and resources. Borrow, read, and learn — anytime,
+                        anywhere.</p>
+                    <div class="hero-buttons">
+                        <a href="books.php" class="btn btn-primary"><i class="fas fa-search"></i> Browse Books</a>
+                        <a href="register.php" class="btn btn-outline">Join Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>5,000+</h3>
+                        <p>Books Available</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1,200+</h3>
+                        <p>Active Students</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Online Access</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">What We Offer</h2>
+                <div class="features-grid">
+                    <article class="feature-card"><i class="fas fa-book"></i>
+                        <h3>Easy Borrowing</h3>
+                        <p>Browse and borrow books with just one click.</p>
+                    </article>
+                    <article class="feature-card"><i class="fas fa-clock"></i>
+                        <h3>Auto-Renewal</h3>
+                        <p>Never worry about late fees.</p>
+                    </article>
+                    <article class="feature-card"><i class="fas fa-chart-line"></i>
+                        <h3>Reading History</h3>
+                        <p>Keep track of every book you've borrowed.</p>
+                    </article>
+                    <article class="feature-card"><i class="fas fa-bell"></i>
+                        <h3>Due Date Alerts</h3>
+                        <p>Get email reminders before books are due.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="popular-books">
+            <div class="container">
+                <h2 class="section-title">Popular Books This Week</h2>
+                <div class="books-grid" id="popularBooksGrid"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>YIC Library</h4>
+                    <p>Supporting education and research at Yanbu Industrial College.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="books.php">Books</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> library@yic.edu.sa</p>
+                    <p><i class="fas fa-phone"></i> +966 14 123 4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 YIC Library System. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script>
+    const isLoggedIn = false;
+    const csrfToken = '';
+    </script>
+</body>
+
+</html>
